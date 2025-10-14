@@ -8,9 +8,9 @@
 #![deny(clippy::pedantic)]
 
 use egui::{
+    CornerRadius, FontId, Frame, Margin, Stroke, Style, Vec2, Visuals,
     epaint::Shadow,
     style::{Interaction, ScrollStyle, Spacing, TextCursorStyle, WidgetVisuals, Widgets},
-    CornerRadius, FontId, Frame, Margin, Stroke, Style, Vec2, Visuals,
 };
 
 /// A trait for scaling various types in the `egui` library.
